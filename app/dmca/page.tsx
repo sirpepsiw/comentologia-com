@@ -166,14 +166,14 @@ export default function DMCAPage() {
 
           <section>
             <h2 className="font-serif text-2xl font-bold text-foreground mb-3">
-              Limitación de Responsabilidad
+              Derechos de Propiedad
             </h2>
             <p>
-              <strong className="text-foreground">Comentologia</strong> actúa como un
-              proveedor de servicios en línea y no aloja, almacena ni distribuye
-              directamente el contenido protegido por derechos de autor que los
-              usuarios puedan cargar. Respondemos diligentemente a todas las
-              notificaciones de infracción válidas de acuerdo con la DMCA.
+              Todo el contenido, diseño, código, logotipos y materiales presentes en
+              esta plataforma son propiedad exclusiva de{" "}
+              <strong className="text-foreground">Comentologia</strong> y están
+              protegidos por las leyes de propiedad intelectual vigentes. Queda
+              prohibida su reproducción, distribución o uso sin autorización expresa.
             </p>
           </section>
         </div>
