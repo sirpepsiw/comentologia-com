@@ -2666,6 +2666,74 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: "carlos-mata-vision-ecatepec",
+    title: "EXCLUSIVA | Carlos Mata habla sobre su visión para Ecatepec",
+    subtitle:
+      '"Es momento de construir un municipio más seguro, moderno y con oportunidades para todos"',
+    category: "Política",
+    color: "bg-primary",
+    gradient: "from-rose-500 to-pink-600",
+    date: "2026-06-28",
+    excerpt:
+      "En una conversación exclusiva con el equipo de nuestra revista digital, Carlos Mata compartió su perspectiva sobre el presente y el futuro de Ecatepec, abordando temas fundamentales para el desarrollo del municipio.",
+    coverImage: "carlos.jpg",
+    blocks: [
+      {
+        type: "text",
+        paragraphs: [
+          "Ecatepec, Estado de México. En una conversación exclusiva con el equipo de nuestra revista digital, Carlos Mata compartió su perspectiva sobre el presente y el futuro de Ecatepec, abordando temas que considera fundamentales para el desarrollo del municipio: seguridad, infraestructura, servicios públicos, empleo, participación ciudadana y atención a las comunidades.",
+          "Durante la entrevista, Mata señaló que Ecatepec enfrenta retos importantes derivados de años de crecimiento acelerado, pero sostuvo que también cuenta con el potencial humano y económico para convertirse en uno de los municipios más fuertes del país si existe una estrategia de largo plazo y un trabajo coordinado entre autoridades y ciudadanía.",
+          '"Ecatepec no necesita promesas vacías; necesita proyectos que puedan convertirse en resultados medibles. La gente quiere vivir con tranquilidad, tener calles en buen estado, agua, alumbrado y oportunidades para sacar adelante a sus familias."',
+        ],
+      },
+      {
+        type: "image",
+        src: "carlos.jpg",
+      },
+      {
+        type: "text",
+        heading: "Seguridad: coordinación, tecnología y prevención",
+        paragraphs: [
+          "Uno de los ejes que destacó fue la importancia de fortalecer la seguridad pública mediante una mejor coordinación entre corporaciones, el uso de tecnología, mayor capacitación para los cuerpos policiacos y estrategias de prevención que involucren a jóvenes, escuelas y organizaciones vecinales.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Desarrollo económico e inversión",
+        paragraphs: [
+          "Asimismo, explicó que el desarrollo económico debe convertirse en una prioridad para atraer nuevas inversiones que generen empleos bien remunerados, al tiempo que se impulsa el crecimiento de pequeños y medianos negocios locales.",
+          '"Cuando llegan inversiones también llegan oportunidades. Debemos facilitar que quien quiera emprender o invertir encuentre condiciones para hacerlo, porque eso beneficia directamente a las familias de Ecatepec."',
+        ],
+      },
+      {
+        type: "text",
+        heading: "Infraestructura y servicios públicos",
+        paragraphs: [
+          "En materia de infraestructura, Carlos Mata habló sobre la necesidad de modernizar vialidades, mejorar el transporte, recuperar espacios públicos y dar mantenimiento permanente a parques, avenidas y zonas habitacionales.",
+          "También subrayó la importancia de garantizar servicios públicos eficientes, particularmente en rubros como alumbrado, recolección de basura y abastecimiento de agua, temas que calificó como esenciales para mejorar la calidad de vida de la población.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Juventud y participación ciudadana",
+        paragraphs: [
+          '"Nuestros jóvenes necesitan espacios deportivos, culturales y tecnológicos donde puedan desarrollar su talento. Apostar por ellos significa apostar por el futuro de Ecatepec."',
+          "Respecto a la participación ciudadana, señaló que considera indispensable mantener un diálogo permanente con vecinos, comerciantes, empresarios y organizaciones sociales para construir soluciones de manera conjunta.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Transparencia y visión de futuro",
+        paragraphs: [
+          "Para Carlos Mata, el desarrollo del municipio debe basarse en la transparencia, la rendición de cuentas y una administración cercana a la gente, donde las decisiones respondan a las necesidades reales de cada comunidad.",
+          "Al concluir la entrevista, reiteró que su visión contempla un Ecatepec con mayor seguridad, mejores servicios, crecimiento económico y espacios dignos para las familias.",
+          '"Mi compromiso es seguir trabajando y escuchando a la ciudadanía. Ecatepec tiene todo para convertirse en un referente de desarrollo, pero eso solo será posible con planeación, trabajo constante y la participación de todos."',
+          "La entrevista permitió conocer una perspectiva enfocada en el fortalecimiento institucional, el desarrollo urbano y la participación social como elementos clave para el futuro del municipio.",
+        ],
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
