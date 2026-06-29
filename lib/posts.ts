@@ -2674,7 +2674,7 @@ export const posts: Post[] = [
     category: "Política",
     color: "bg-primary",
     gradient: "from-rose-500 to-pink-600",
-    date: "2026-06-28",
+    date: "2024-07-01",
     excerpt:
       "En una conversación exclusiva con el equipo de nuestra revista digital, Carlos Mata compartió su perspectiva sobre el presente y el futuro de Ecatepec, abordando temas fundamentales para el desarrollo del municipio.",
     coverImage: "carlos.jpg",
