@@ -1,4 +1,4 @@
-export const LEGEND = "Derechos de la imagen a Jose Feliciano Lopez Becerra y LaComentologa.online"
+export const LEGEND = "Derechos de la imagen a Jose Feliciano Lopez Becerra y comentologia.com"
 
 export type ContentBlock =
   | { type: "text"; heading?: string; paragraphs: string[] }
