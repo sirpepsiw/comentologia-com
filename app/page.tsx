@@ -126,7 +126,10 @@ export default function Home() {
             Últimas noticias
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {posts.filter(p => !p.exclusiveToken && !p.hiddenFromHome).map((post) => (
+            {posts
+              .filter((p) => !p.exclusiveToken && !p.hiddenFromHome)
+              .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+              .map((post) => (
               <PostCard key={post.slug} post={post} />
             ))}
           </div>
