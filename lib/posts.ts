@@ -2734,6 +2734,64 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: "tiroteo-ecatepec",
+    title: "ÚLTIMA HORA | Comentología está en el lugar: el discurso terminó en el caos",
+    category: "Última Hora",
+    color: "bg-primary",
+    gradient: "from-rose-600 to-red-700",
+    date: "2025-06-01",
+    excerpt:
+      "Cobertura especial desde Ecatepec: el evento político encabezado por Carlos Mata terminó de manera inesperada. Nuestro equipo documentó los momentos.",
+    coverImage: "portada.jpeg",
+    blocks: [
+      {
+        type: "text",
+        paragraphs: [
+          "Ecatepec de Morelos, Estado de México — 1 de junio de 2025.",
+          "Ecatepec acaba de convertirse en el centro de una jornada que nadie esperaba. El equipo de Comentología se encuentra en el lugar de los hechos realizando una cobertura especial del evento político encabezado por Carlos Mata. Lo que inició como un acto público con cientos de asistentes cambió drásticamente en cuestión de segundos, dando paso a momentos de confusión que transformaron por completo el ambiente.",
+          "Desde temprana hora nuestro equipo se instaló en distintos puntos del recinto para documentar la llegada de simpatizantes, líderes vecinales y ciudadanos que acudió al evento. La plaza lucía llena. Banderas, lonas, música y decenas de personas esperando el inicio del discurso marcaban el ambiente de una mañana que parecía transcurrir con absoluta normalidad.",
+        ],
+      },
+      {
+        type: "text",
+        paragraphs: [
+          "Cuando Carlos Mata comenzó su intervención, la atención de los asistentes se concentró por completo en el escenario. Durante varios minutos el acto se desarrolló sin contratiempos. Los aplausos respondían a cada mensaje y las cámaras no dejaban de registrar cada instante.",
+          "Sin embargo, todo cambió de manera repentina.",
+        ],
+      },
+      {
+        type: "video",
+        src: "tiroteo1.mp4",
+      },
+      {
+        type: "text",
+        paragraphs: [
+          "En cuestión de segundos, el ambiente dio un giro inesperado. La tranquilidad dio paso al desconcierto. Los asistentes comenzaron a reaccionar de manera inmediata mientras el evento quedaba completamente interrumpido. La multitud buscó alejarse de la zona y el lugar pasó de ser un escenario político a una escena marcada por la incertidumbre.",
+        ],
+      },
+      {
+        type: "video",
+        src: "tiroteo2.mp4",
+      },
+      {
+        type: "text",
+        paragraphs: [
+          "Comentología permaneció en el sitio durante todo momento.",
+          "Mientras muchas personas abandonaban el lugar, nuestro equipo continuó documentando lo que ocurría. Cada fotografía capturada refleja la intensidad de esos minutos: sillas vacías, pancartas abandonadas, organizadores intentando recuperar el control y cientos de personas reaccionando ante una situación completamente inesperada.",
+          "Nuestros fotógrafos se desplazaron por distintos puntos del evento para obtener una cobertura completa de lo sucedido. Ninguna de las imágenes que estaremos publicando durante las próximas horas proviene de terceros. Todo el material fue obtenido exclusivamente por el equipo de Comentología.",
+        ],
+      },
+      {
+        type: "text",
+        paragraphs: [
+          "Al momento de la publicación de esta nota, seguimos en el lugar recopilando información y organizando el material fotográfico y audiovisual capturado durante la cobertura. En las próximas horas estaremos compartiendo nuevas imágenes, videos y una cronología completa de esta historia ficticia conforme avance nuestra producción narrativa.",
+          "Esta es una cobertura especial de Comentología. Si quieres conocer todos los detalles de esta historia de ficción y acceder a la galería completa con imágenes exclusivas, permanece atento a nuestras próximas publicaciones.",
+        ],
+      },
+    ],
+  },
+
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
