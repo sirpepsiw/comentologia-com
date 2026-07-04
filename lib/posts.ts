@@ -34,7 +34,7 @@ export const posts: Post[] = [
     category: "Editorial",
     color: "bg-gold",
     gradient: "from-yellow-400 to-amber-600",
-    date: "2023-10-03",
+    date: "2025-06-01",
     excerpt:
       "Nace Pulso Local, la nueva sección editorial de Comentología dedicada a dar cobertura a los acontecimientos más importantes que ocurren en México con un lenguaje claro, oportuno y responsable.",
     coverImage: "portada.jpg",
