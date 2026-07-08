@@ -186,6 +186,18 @@ function BlockRenderer({
   slug: string;
 }) {
   switch (block.type) {
+    case "cta-pulso":
+      return (
+        <a
+          href="https://elpulsolocal.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="my-8 block w-full text-center px-8 py-6 bg-gradient-to-r from-blue-600 to-cyan-500 text-white font-serif text-xl md:text-2xl font-bold rounded-2xl shadow-xl hover:shadow-2xl hover:scale-[1.02] transition-all duration-300"
+        >
+          Navegar a El Pulso Local →
+        </a>
+      );
+
     case "image":
       return (
         <figure>

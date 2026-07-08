@@ -4,6 +4,7 @@ export type ContentBlock =
   | { type: "text"; heading?: string; paragraphs: string[] }
   | { type: "image"; src: string }
   | { type: "video"; src: string }
+  | { type: "cta-pulso" }
   | {
       type: "transcript";
       heading?: string;
@@ -2840,6 +2841,66 @@ export const posts: Post[] = [
         paragraphs: [
           "Al momento de la publicación de esta nota, seguimos en el lugar recopilando información y organizando el material fotográfico y audiovisual capturado durante la cobertura. En las próximas horas estaremos compartiendo nuevas imágenes, videos y una cronología completa de esta historia ficticia conforme avance nuestra producción narrativa.",
           "Esta es una cobertura especial de Comentología. Si quieres conocer todos los detalles de esta historia de ficción y acceder a la galería completa con imágenes exclusivas, permanece atento a nuestras próximas publicaciones.",
+        ],
+      },
+    ],
+  },
+  {
+    slug: "comentologia-inaugura-pulso-local",
+    title: "Comentología inaugura Pulso Local",
+    subtitle: "El chisme también nace donde sucede la noticia",
+    category: "Editorial",
+    color: "bg-gold",
+    gradient: "from-amber-400 to-orange-500",
+    date: "2025-06-01",
+    excerpt: "Durante años hemos contado historias que nacen en los escenarios del espectáculo. Hoy anunciamos oficialmente el nacimiento de Pulso Local, una nueva sección editorial dedicada a dar cobertura a los acontecimientos más importantes que ocurren en México.",
+    coverImage: "portada.jpg",
+    blocks: [
+      {
+        type: "cta-pulso",
+      },
+      {
+        type: "text",
+        paragraphs: [
+          "Durante años hemos contado historias que nacen en los escenarios del espectáculo, las redes sociales y la conversación pública. Hemos seguido de cerca a quienes marcan tendencia, protagonizan polémicas y ocupan titulares. Sin embargo, entendimos que el país también genera historias que merecen ser contadas desde una perspectiva cercana, humana y con el sello que caracteriza a Comentología.",
+          "Por ello, hoy anunciamos oficialmente el nacimiento de Pulso Local, una nueva sección editorial dedicada a dar cobertura a los acontecimientos más importantes que ocurren en México. Desde hechos que conmueven a una comunidad hasta sucesos que captan la atención nacional, nuestro objetivo será acercar la información a nuestros lectores con un lenguaje claro, oportuno y responsable.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Detrás de cada noticia existe una historia",
+        paragraphs: [
+          "Pulso Local nace con la convicción de que detrás de cada noticia existe una historia que merece contexto. No se trata únicamente de informar qué ocurrió, sino de explicar por qué está sucediendo, cuál es su impacto y cómo repercute en la vida cotidiana de miles de personas. Creemos que una revista digital puede evolucionar sin perder su esencia, y esa evolución comienza escuchando lo que sucede más allá del mundo del entretenimiento.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Lo que cambia es nuestra mirada",
+        paragraphs: [
+          "Nuestro equipo editorial ampliará su cobertura para seguir de cerca acontecimientos de interés público, hechos de seguridad, fenómenos naturales, temas sociales, decisiones gubernamentales, eventos extraordinarios y todas aquellas noticias que, por su relevancia, se conviertan en conversación nacional.",
+          "Esto no significa abandonar la esencia de Comentología. El entretenimiento, la farándula, los creadores de contenido y las figuras públicas seguirán ocupando un lugar central en nuestra cobertura. Lo que cambia es nuestra mirada: ahora estaremos presentes también donde la noticia se está escribiendo en tiempo real.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Compromiso con la verificación",
+        paragraphs: [
+          "La información viajará más rápido, llegará con mayor contexto y estará respaldada por un compromiso permanente con la verificación de los hechos antes de su publicación. Nuestro propósito es ofrecer contenidos que no solo informen, sino que también ayuden a comprender el panorama nacional.",
+        ],
+      },
+      {
+        type: "text",
+        heading: "Una nueva etapa para Comentología",
+        paragraphs: [
+          "La creación de Pulso Local representa uno de los pasos más importantes en la historia de Comentología. Es el resultado de escuchar a nuestra comunidad, de identificar nuevas necesidades informativas y de asumir el compromiso de crecer junto con nuestros lectores.",
+          "A partir de hoy inicia una nueva etapa. Una etapa en la que seguiremos contándote los temas que dominan las conversaciones en internet, pero también aquellos que nacen en las calles, en las ciudades, en los municipios y en cada rincón del país.",
+        ],
+      },
+      {
+        type: "text",
+        paragraphs: [
+          "Bienvenidos a Pulso Local.",
+          "Porque las grandes historias no solo ocurren en los escenarios o frente a una cámara; también suceden donde late el corazón de México. Y desde hoy, Comentología estará ahí para contarlas.",
         ],
       },
     ],
