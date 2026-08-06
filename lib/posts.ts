@@ -2598,6 +2598,43 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: "galeria-jose-feliciano-lopez-becerra-diciembre-2019",
+    title: "Galeria Jose Feliciano Lopez Becerra 7 de diciembre de 2019",
+    category: "Galería",
+    color: "bg-accent",
+    gradient: "from-purple-400 to-indigo-600",
+    date: "2019-12-07",
+    excerpt:
+      "Galería de fotografías de Jose Feliciano Lopez Becerra tomadas el 7 de diciembre de 2019. Una colección de imágenes que documentan un momento único.",
+    coverImage: "071219.jpg",
+    blocks: [
+      { type: "image", src: "071219.jpg" },
+      { type: "image", src: "081219.jpg" },
+      { type: "image", src: "091219.jpg" },
+      { type: "image", src: "121219.jpg" },
+      { type: "image", src: "030320.jpg" },
+      { type: "image", src: "150621.jpg" },
+    ],
+  },
+  {
+    slug: "galeria-jose-feliciano-lopez-becerra-septiembre-2018",
+    title: "Galeria Jose Feliciano Lopez Becerra 29 de septiembre de 2018",
+    category: "Galería",
+    color: "bg-accent",
+    gradient: "from-purple-400 to-indigo-600",
+    date: "2018-09-29",
+    excerpt:
+      "Galería de fotografías de Jose Feliciano Lopez Becerra tomadas el 29 de septiembre de 2018. Una colección de imágenes que documentan un momento único.",
+    coverImage: "290918.jpg",
+    blocks: [
+      { type: "image", src: "290918.jpg" },
+      { type: "image", src: "100219.jpg" },
+      { type: "image", src: "100419.jpg" },
+      { type: "image", src: "130719.jpg" },
+      { type: "image", src: "140719.jpg" },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): Post | undefined {
